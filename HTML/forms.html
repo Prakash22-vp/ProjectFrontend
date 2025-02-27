@@ -1,64 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+
+    <link rel="stylesheet" href="forms1.css">
 </head>
+
 <body>
 
-    <h1>REGISTRATION FORM</h1>
+    <h1 class="a">REGISTRATION FORM</h1> 
 
-    <table>
+    <table class="a">
 
         <tbody>
 
-        <tr>
-            <form action="mailto:vp22081998@gmail.com"></form>
-<td>
-            <label for="text"> Enter Your Name</label>
+            <tr>
+                <form action="mailto:vp22081998@gmail.com" method="post" target="_blank">
 
-            <input type="text" >
+                    <td><label for="text"> Enter Your Name</label></td>
 
-        </td>
-
-    </tr>
-    <tr>
-        <br>
-
-        <td>
-
-            <label for="text"> Enter Your Password</label>
-
-            <input type="text">
-
-        </td>
-
-    </tr>
-
-    <tr>
-        <td>
-
-            <label for="email"> Enter Your Email</label>
-
-            <input type="email">
-        </td>
-    </tr>
+                    <td> <input type="text" placeholder="Enter your Name" > </td>
 
 
-    <tr>
 
-        <td>
+            </tr>
+            <tr>
+                <br>
 
-            <label for="number"> Enter your Mobile Number</label>
 
-            <input type="text" >
-        </td>
-    </tr>
 
-    </tbody>
-        
+                <td> <label for="text"> Enter Your Password</label> </td>
+
+                <td> <input type="text" placeholder="Enter your Password"> </td>
+
+
+
+            </tr>
+
+            <tr>
+
+
+                <td> <label for="email"> Enter Your Email</label> </td>
+
+                <td> <input type="email" placeholder="Enter your Email"> </td>
+
+            </tr>
+
+
+            <tr>
+
+
+
+                <td> <label for="number"> Enter your Mobile Number</label> </td>
+
+                <td> <input type="tel" placeholder="Enter your Number" pattern="[6-9][0-9]{9}"> </td>
+
+
+            </tr>
+
+            <tr>
+
+                <td><label for="pincode"> Enter your Pincode</label></td>
+
+                <td><input type="text" name="pincode" placeholder="Enter your Pincode" pattern="[6-9][0-9]{7}"></td>
+            </tr>
+
+            <tr>
+
+                <td><label for="">Choose your Date of Birth</label></td>
+
+                <td><input type="date" min="1990-01-01" max="2004-12-31"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Upload your Aadhar</label></td>
+                <td><input type="file" name="" id="" accept=".pdf,.png,.img,.docx"></td>
+            </tr>
+            <tr>
+                <td><label for="">Upload your Educational Documents</label></td>
+                <td><input type="file" name="" id="" accept=".pdf,.png,.img,.docx" multiple></td>
+            </tr>
+            <tr>
+                <td><label for="">Upload your PassPort photocopy</label></td>
+                <td><input type="file" name="" id="" accept=".png,.img" multiple></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Please select your Mother tongue</label></td>
+                <td><input list="list" name="" id=""></td>
+            </tr>
+
+            <datalist id="list">
+
+                <option value="Tamil"> Tamil</option>
+
+                <option value="English">English</option>
+            </datalist>
+
+            <tr>
+
+                <td>
+
+                    <label for="">Expected Salary</label>
+                    <input type="range" step="25000" min="10000" max="50000">
+                </td>
+            </tr>
+
+            <tr>
+
+
+                <td> <label for="">Select your State</label> </td>
+                <td><select name="" id="">
+
+                        <option value="Select your State">Select your State</option>
+                        <optgroup label="North India">
+                            <option value="Gujarat"> Bihar</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+
+                        </optgroup>
+
+                        <optgroup label="South India">
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Kerala">Kerala</option>
+                        </optgroup>
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Register">
+                    <input type="reset">
+                </td>
+
+            </tr>
+            </form>
+
+           
+
+        </tbody>
+
     </table>
-    
+
 </body>
+
 </html>
