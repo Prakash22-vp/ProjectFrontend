@@ -1,0 +1,25 @@
+#firstdiv{
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: xx-small;
+
+    font-variant: small-caps;
+
+    background-color: aqua;
+
+}
+
+.seconddiv{
+
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size: x-small;
+
+    background-color: brown;
+
+    text-align: right;
+
+}
