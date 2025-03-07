@@ -1,0 +1,39 @@
+.abc{
+
+    width: 150px;
+
+    height: 200px;
+
+    border: 10px brown;
+
+    background-color: tomato;
+
+    padding-left: 100px;
+
+    padding-top: 150px;
+
+    margin-left: 200px;
+
+    margin-top: 150px;
+
+
+
+}
+
+body{
+
+    background-color: burlywood;
+}
+
+.a{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    float: left;
+}
+.b{
+    height: 350px;
+    width: 250px;
+    background-color: red;
+    float: left;
+}
